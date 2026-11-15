@@ -8,7 +8,7 @@
 
   // Order here drives the order of the breakdown cards and the formula.
   const TYPES = {
-    smartCase: { label: 'Smart Case', plural: 'Smart Cases', weight: 10 },
+    smartCase: { label: 'SmartCase', plural: 'SmartCases', weight: 10 },
     project:   { label: 'Project',    plural: 'Projects',    weight: 30 },
     exam:      { label: 'Exam',       plural: 'Exams',       weight: 60 },
   };
