@@ -207,6 +207,14 @@ button, input, select { font: inherit; color: inherit; }
   transition: background .15s;
 }
 .btn-linkedin:hover { background: #084f96; }
+.disclaimer {
+  flex-basis: 100%;
+  padding-top: 8px;
+  border-top: 1px dashed color-mix(in srgb, var(--accent) 30%, transparent);
+  font-size: 12px;
+  color: var(--muted);
+}
+.disclaimer strong { color: var(--text); }
 .btn-linkedin .icon { color: #fff; --li-ink: #0a66c2; }
 .btn-linkedin:hover .icon { --li-ink: #084f96; }
 
